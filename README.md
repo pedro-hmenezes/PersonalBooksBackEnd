@@ -1,9 +1,9 @@
-📚 API Meus Livros (Backend)
+API Livros Pessoais (Backend)
 ============================
 
 Este é o backend da aplicação "Meus Livros", desenvolvido em Node.js com Express e SQLite. Ele fornece uma API REST para realizar operações de CRUD (Create, Read, Update, Delete) de livros.
 
-🚀 Tecnologias Utilizadas
+Tecnologias Utilizadas
 -------------------------
 
 -   **Node.js**: Ambiente de execução.
@@ -14,12 +14,12 @@ Este é o backend da aplicação "Meus Livros", desenvolvido em Node.js com Expr
 
 -   **Cors**: Middleware de segurança.
 
-⚙️ Pré-requisitos
+Pré-requisitos
 -----------------
 
 Certifique-se de ter o [Node.js](https://nodejs.org/ "null") instalado em sua máquina.
 
-🛠️ Como Rodar o Projeto
+Como Rodar o Projeto
 ------------------------
 
 1.  **Clone o repositório**:
@@ -48,7 +48,7 @@ Certifique-se de ter o [Node.js](https://nodejs.org/ "null") instalado em sua m�
 
     > O banco de dados `livraria.db` será criado automaticamente na primeira execução.
 
-🔗 Endpoints da API
+Endpoints da API
 -------------------
 
 |
@@ -131,7 +131,7 @@ Utilize este formato no corpo da requisição (Body) para criar ou atualizar um 
 
 ```
 
-🛡️ Segurança
+Segurança
 -------------
 
 O projeto utiliza *Prepared Statements* (ex: `values (?, ?, ?, ?)`) para prevenir **SQL Injection**.
